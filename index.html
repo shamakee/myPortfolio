@@ -1,342 +1,490 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fathima Zamra Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Akeel Portfolio</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-
+    <meta name="description" content="Portfolio webpage of Vinay Somawat" />
+    <meta name="keywords" content="portfolio,website,personal website,github,projects,computer science and engineering" />
+    <meta name="author" content="Vinay Somawat" />
+    <!--Social Media icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-----Google adsense code---->
+    <script data-ad-client="ca-pub-2147632065762164" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Mohamed Akeel</h1>
-            <h2>Software Developer</h2>
-            <a href="https://drive.google.com/uc?id=1dXZBaLy0vjCKKHMEr2oBYhKlqHMSIVVe&export=download" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+    <canvas id="canvas"></canvas>
+    <div id="colorlib-page">
+        <div class="container-wrap">
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+            <!----Side bar--->
+            <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+                <div class="text-center">
+                    <div class="author-img" style="background-image: url(images/sham.jpg);"></div>
+                    <h1 id="colorlib-logo"><a href="https://vinaysomawat.github.io">Fathima Zamra</a></h1>
                 </div>
-                <div class="col-md-8">
-                    <p>
-                        An Information Technology (IT) BSc. degree graduate from Rajarata University of Sri Lanka with excellent academic background and diverse skillset... Skilled in Python (Programming Language), PHP, C++, HTML, and JavaScript, .Net, Angular and Laravel Frameworks.
-                        A dedicated and determined individual who is very systematic and self-learning. Passionate about developing my skills in most of the fields. Moreover, I have good business communication skills. Hard-working and also smart working
-                        to achieve my goals. Interested in Software Engineering, Software Developing and QA.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="August 2021 – October 2016">
-                <h3>TEQ2O Technologies</h3>
-                <h4>Software Developer</h4>
-                <p>
-                    Teq2o Technologies Pvt Ltd was formed by Vithujan Anantharajah in 2014, Teq2o Technologies is one of the largest IT majors today in providing IT automation services all over the world.
-                </p>
-            </div>
-
-            <div data-date="January 2020 – April 2021">
-                <h3>UGASS</h3>
-                <h4>Secretary</h4>
-                <p>
-                    UGASS - Undergraduate Association for Social Services.
-                </p>
-            </div>
-
-            <div data-date="October 2016 – Present">
-                <h3>Eastern Cancer Care & Hospice</h3>
-                <h4>Media Coordinator</h4>
-                <p>
-                    Eastern Cancer Care Hospice (EASCCA), is a non-profitable charity organization. Its main functions are to help the cancer patients and their families. As name implies, ‘Eastern’ tells only the location of the center but its services reach across the island
-                    for any cancer patients from any part of our motherland.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>Rajarata University of Sri Lanka</h3>
-            <span class="education-date">November 2017 - December 2021</span>
-            <h4>Bachelor of Science in Information Technology</h4>
-            <p>
-                Current GPA - 3.52 </br>
-                </br> Modules: Data Structures(C++), Design and Analysis of Algorithms, Object-oriented programming (C++), Database Systems, Procedural Programming (C++), Web development(HTML, PHP, CSS, Javascript, XML), Software Engineering, Operating Systems,
-                Image Processing and Analysis(MATLAB), Electronics, English for Professional purpose, Philosophy of Natural Sciences
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>Alighar Central College</h3>
-            <span class="education-date">January 2014 - August 2016</span>
-            <h4>Physical Science Student</h4>
-            <ul>
-                <li>
-                    Combined Maths - B
-                </li>
-                <li>
-                    Physics - C
-                </li>
-                <li>
-                    Chemistry - C
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/epocket.png" />
+                <nav id="colorlib-main-menu" role="navigation" class="navbar" style="padding-top: 2em">
+                    <div id="navbar" class="collapse">
+                        <ul>
+                            <li><a href="#" data-nav-section="about">About</a></li>
+                            <li><a href="#" data-nav-section="skills">Skills</a></li>
+                            <li><a href="#" data-nav-section="experience">Work Experience</a></li>
+                            <li><a href="#" data-nav-section="education">Education</a></li>
+                            <li><a href="#" data-nav-section="projects">Reflections</a></li>
+                            <li><a href="#" data-nav-section="contact">Contact</a></li>
+                        </ul>
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>ePocket</h3>
-                        <p>
-                            ePocket is a Personal Finance Management. Manage your personal finances, income, expenditure all in one place without any hassle. Pick your categories of expenses and income and just enter the values. We’ll take care of the rest.
-                        </p>
-                        <a href="https://github.com/akeesham/epocket">View Project</a>
+                    <div style="text-align: center; padding-top: 20px;">
+                        <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+                        <a class="bmc-button" target="_blank" href="https://drive.google.com/uc?id=1ttJsCkRv2Knr_Ncrn208CVdbaDuL6zeH&export=download"><span style="margin-left:5px">Download Resume</span></a>
                     </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/deepfake.png" />
+                </nav>
+            </aside>
+            <!----- main page--------->
+            <div id="colorlib-main">
+                <!---------------About me---------------------->
+                <section class="colorlib-about" data-section="about">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="col-md-12">
+                                        <div class="about-desc">
+                                            <h1><strong>Fathima <span style="color: #FACD69">Zamra</span></strong></h1>
+                                            <hr>
+                                            <p style="text-align: justify">I am an enthusiastic Undergraduate of the Rajarata University of Sri Lanka. Currently enrolled in the B.Sc. degree in Health Promotion in Faculty of Applied Sciences at Rajarata University and expecting graduation
+                                                in 2021. Experienced in CKDU Research, Community based intervention and WHO Salt Survey Research. Well-developed skills in communication, language, planning, decision making and critical thinking. Proven
+                                                strengths in organizing, multi-tasking and prioritizing heavy workloads. I am a health promotion facilitator who enthusiastically work to enhance well-being of individuals and community. Having strong experiences
+                                                working in community and different settings with local, Government and Non-Government projects.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Deepfake Video Detection</h3>
-                        <p>
-                            The aim of this project is to develop a system for detecting deepfake videos with the use of neural networks. This project immensely helps the general public to detect fake videos from real ones, which can be very useful to not consume false information
-                        </p>
-                        <a href="#">View Project</a>
+                </section>
+                <!---------------Skills---------------->
+                <section class="colorlib-skills" data-section="skills">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="about-desc">
+                                    <h1>Skills</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">Community Facilitation</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-1" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">
+                                        Problem Solving</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-6" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">Analytical Skills</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-2" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">Editing: Adobe Photoshop</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-3" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">Microsoft Word</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-4" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">Microsoft Excel</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-7" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">Presentations</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-3" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">Communication, Public Speaking</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-5" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">Research</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-6" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+                </section>
+
+                <!---------------Work Experience----------->
+                <section class="colorlib-experience" data-section="experience">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="about-desc">
+                                    <h1>Work <span style="color: #f9bf3f">Experience</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="timeline-centered">
+                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                        <div class="timeline-entry-inner">
+                                            <div class="timeline-icon color-1">
+                                                <i class="fa fa-code"></i>
+                                            </div>
+                                            <div class="timeline-label">
+                                                <h2><a href="#">Undergraduates Association of Social Service - Deltota</a><br><span>2020 - 2021</span></h2>
+                                                <p><strong>Member</strong><br>Worked as a member in this association</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                        <div class="timeline-entry-inner">
+                                            <div class="timeline-icon color-1">
+                                                <i class="fa fa-code"></i>
+                                            </div>
+                                            <div class="timeline-label">
+                                                <h2><a href="#">Environmental and behavioral risk factors for declining kidney functions: a prospective
+                                                    cohort study amongst at risk of CKDU</a><br><span>2018 - 2019</span></h2>
+                                                <p><strong>Field Data Collector</strong><br>Epidemiology Unit of Ministry of Health & World Health Organization</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                        <div class="timeline-entry-inner">
+                                            <div class="timeline-icon color-1">
+                                                <i class="fa fa-code"></i>
+                                            </div>
+                                            <div class="timeline-label">
+                                                <h2><a href="#">Alcohol and Drug Information Centre</a><br><span>2019</span></h2>
+                                                <p><strong>Data collector</strong><br>Trend Survey on Tobacco and Alcohol</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                                        <div class="timeline-entry-inner">
+                                            <div class="timeline-icon color-2">
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!---------------Education----------->
+                <section class="colorlib-education" data-section="education">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="about-desc">
+                                    <h1>Education</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="timeline-centered">
+                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                        <div class="timeline-entry-inner">
+                                            <div class="timeline-icon color-1">
+                                                <i class="fa fa-code"></i>
+                                            </div>
+                                            <div class="timeline-label">
+                                                <h2>Bachelor of Science - BS Field Of Study Health Promotion</h2>
+                                                <p><strong>Rajarata University of Sri Lanka</strong><br>November 2017 - December 2021</p>
+                                                <p><strong>Courses undertaken</strong><br>Introduction to Human Diseases & Health, Concepts of Health , History and Evolution of Health Promotion, Nutrition and Metabolism , Reproductive Physiology & Developmental
+                                                    Biology, Research Methods, Statistical Methods in Biology, Measures of Health.</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                                        <div class="timeline-entry-inner">
+                                            <div class="timeline-icon color-5">
+                                                <i class="fa fa-user"></i>
+                                            </div>
+                                            <div class="timeline-label">
+                                                <h2>Biological Science</h2>
+                                                <p><strong>K/Enasala Golla Central College</strong><br>January 2013 – August 2015</p>
+                                                <p><strong>Field Of Study</strong><br>Biology, Physics, Chemistry</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                                        <div class="timeline-entry-inner">
+                                            <div class="timeline-icon color-2">
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--------------Reflections---------------->
+                <section class="colorlib-skills" data-section="projects">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="about-desc">
+                                    <h1>Reflections</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-left: 10px">
+                            <ul id="accordion" class="accordion animate-box" data-animate-effect="fadeInRight">
+                                <li>
+                                    <div class="link">
+                                        <p style="margin-bottom: 0px">Pre-University</p>
+                                        <i class="fa fa-chevron-down"></i>
+                                    </div>
+                                    <ul class="submenu mb-0" style="padding-left: 10px">
+                                        <li>
+                                            <div>
+                                                <a href="#" style="text-decoration:none; pointer-events: none; cursor: default;">
+                                                    <div>
+                                                        <h4 class="mb-3">Being the Prefect of our school, I was equipped with strong leadership and communication skills. In addition to that, I was engaged in several extracurricular activities such as Competitions, science
+                                                            quiz, maths quiz, leadership programs and etc. And also after the school education I was experienced as a member of higher education students’ association of Deltota.</h4>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        </br>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link">
+                                        <p style="margin-bottom: 0px">First Year in the University</p>
+                                        <i class="fa fa-chevron-down"></i>
+                                    </div>
+                                    <ul class="submenu mb-0" style="padding-left: 10px">
+                                        <li>
+                                            <i class="fa-li fa fa-check"></i>
+                                            <div>
+                                                <a href="#" style="text-decoration:none; pointer-events: none; cursor: default;">
+                                                    <div>
+                                                        <h4 class="mb-3">
+                                                            I was very passionate to learn the degree from the ground level. However, I was timid as the university environment was new to me. With the help of my lecturers and peers, I was able to adapt soon and learn well. University has given me the opportunity
+                                                            to work with communities. I have the field work experience Medhawachiya Area in Anuradhapura Districts. As well o Participated in a community symposium conducted by Presedentila task force on
+                                                            Drug prevention and District Secretariat- Anuradhapura
+                                                        </h4>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <br>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link">
+                                        <p style="margin-bottom: 0px">Second Year in the University</p>
+                                        <i class="fa fa-chevron-down"></i>
+                                    </div>
+                                    <ul class="submenu mb-0" style="padding-left: 10px">
+                                        <li>
+                                            <i class="fa-li fa fa-check"></i>
+                                            <div>
+                                                <a href="#" style="text-decoration:none; pointer-events: none; cursor: default;">
+                                                    <div>
+                                                        <h4 class="mb-3">
+                                                            I developed myself in every aspect. Whatever I have learned in course modules, I have started applying my learning to interact with communities. I was confident enough to handle my university life. I got the field work experience in Henawaththa Village
+                                                            in Anuradhapura Districts to improve health.
+                                                        </h4>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <br>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="link">
+                                        <p style="margin-bottom: 0px">Third Year in the University</p>
+                                        <i class="fa fa-chevron-down"></i>
+                                    </div>
+                                    <ul class="submenu mb-0" style="padding-left: 10px">
+                                        <li>
+                                            <i class="fa-li fa fa-check"></i>
+                                            <div>
+                                                <a href="#" style="text-decoration:none; pointer-events: none; cursor: default;">
+                                                    <div>
+                                                        <h4 class="mb-3">
+                                                            Due to Covid 19 pandemic, unfortunately, academic activities and field work activities are conducted virtually. That was a kind of new experience for me, and I have started improving my self- learning. I experienced a lot of benefits from the field work.
+                                                            It helps me to improve my practical knowledge on health promotion process. As well I experienced how to work with different groups of the community and how to work with community individually.
+                                                        </h4>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <br>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!---------------Contact---------->
+                <section class="colorlib-contact" data-section="contact">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="about-desc">
+                                        <h1>Contact</h1>
+                                    </div>
+                                    <p>On the off chance that you might want to connect with me, be it for some business or innovation, or to simply say hello, don't hesitate to send me an email at <strong><a href = "mailto: fathimazamra528@gmail.com">fathimazamra528@gmail.com</a></strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="progress-wrap">
+                                    <strong>
+                                 <a href="https://www.facebook.com/akeesham" target="blank">
+                                    <p style="color:firebrick">Facebook</p>
+                                 </a>
+                              </strong>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <strong>
+                                 <a href="https://www.linkedin.com/in/amf-zamra/" target="blank">
+                                    <p style="color:darkorange">LinkedIn</p>
+                                 </a>
+                              </strong>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="progress-wrap">
+                                    <strong>
+                                 <a href="https://www.instagram.com/sham_akee/" target="blank">
+                                    <p style="color:darkgreen">Instagram</p>
+                                 </a>
+                              </strong>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <strong>
+                                 <a href="https://github.com/shamakee" target="blank">
+                                    <p style="color:black">GitHub</p>
+                                 </a>
+                              </strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!---------------Footer------------->
+                <section class="colorlib-footer" data-section="footer" style="padding-bottom: 3em">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="hire">
+                                        <p style="text-align: center"><strong>If you like my work and efforts, please consider buying me a coffee.<br>Thank you for your support!</strong></p>
+                                        <div style="text-align: center">
+                                            <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+                                            <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/shamakee"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:5px">Buy me a coffee</span></a>
+                                        </div>
+                                        <br>
+                                        <p style="text-align: center; margin-bottom: -20px;"><strong>&copy; No Copyrights, Fathima Zamra</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     </div>
-    <!-- End #projects -->
-
-    <!--certification-->
-    <div id="education">
-        <h2 class="heading">Certifications</h2>
-        <div class="education-block">
-            <h3>Programming for Everybody (Python Lang.)</h3>
-            <span class="education-date">Issued on December 2020</span>
-            <h4>University of Michigan</h4>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>Excel Skills for Business: Essentials</h3>
-            <span class="education-date">Issued on September 2021</span>
-            <h4>Macquarie University</h4>
-        </div>
-
-        <div class="education-block">
-            <h3>PHP, SQL, C++, HTML</h3>
-            <span class="education-date">Issued on November 2018</span>
-            <h4>SoloLearn</h4>
-        </div>
-
-        <!-- End .education-block -->
-    </div>
-    <!-- End #certification -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Laravel</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>.Net</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Reflection</h2>
-        <div style="width: 855px; margin:0 auto; text-align: center;">
-            <div>
-                <h3>Pre-University</h3>
-                <p>
-                    After my A/L examination I was working with short film crew and we made 3 short films and a documentary. Then I was working for a Cancer care hospise as a media partner in our home town. After got the A/L results I started to work in ESDA assosciation
-                    as an editor. I was equipped with strong leadership and communication skills. In addition to that, I was engaged in several extracurricular activities such as chess competitions, leadership programs and etc.
-                </p>
-            </div>
-
-            <div>
-                <h3>First Year in the University</h3>
-                <p>
-                    In my first year of the University I got selected as Undergraduate association secretary and I worked for one and half years.
-                </p>
-            </div>
-
-            <div>
-                <h3>Second Year in the University</h3>
-                <p>
-                    Eastern Cancer Care Hospice (EASCCA), is a non-profitable charity organization. Its main functions are to help the cancer patients and their families. As name implies, ‘Eastern’ tells only the location of the center but its services reach across the island
-                    for any cancer patients from any part of our motherland.
-                </p>
-            </div>
-
-            <div>
-                <h3>Third Year in the University</h3>
-                <p>
-                    Eastern Cancer Care Hospice (EASCCA), is a non-profitable charity organization. Its main functions are to help the cancer patients and their families. As name implies, ‘Eastern’ tells only the location of the center but its services reach across the island
-                    for any cancer patients from any part of our motherland.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2021 MOHAMED AKEEL
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/akeesham" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/akeesham/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/akeelevr" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/akee_sham" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
-
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Counters -->
+    <script src="js/jquery.countTo.js"></script>
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+    <!--canvas js--->
+    <script src="js/canvas.js"></script>
 </body>
 
 </html>
