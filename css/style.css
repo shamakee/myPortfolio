@@ -2352,6 +2352,19 @@ ul {
     transition: all 0.25s ease;
 }
 
+#swot {}
+
+.swot {
+    padding: 50px 15px;
+    border-bottom: 1px solid #dcd9d9;
+    text-align: center !important
+}
+
+.swot h2 {
+    color: #374054;
+    /* margin-bottom: 50px */
+}
+
 
 /* .submenu a:hover {
   background: yellow;
